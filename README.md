@@ -12,4 +12,12 @@ mkdir /usr/man && make && make install
 logfile /var/log/rinetd.log
 ```
 
+```shell
+echo "/usr/sbin/rinetd -c /etc/rinetd.conf" >> /etc/rc.local
 
+chmod +x /etc/rc.d/rc.local
+```
+
+```shell
+pkill rinetd
+```
