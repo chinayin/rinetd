@@ -13,7 +13,7 @@ logfile /var/log/rinetd.log
 ```
 
 ```shell
-echo "/usr/sbin/rinetd -c /etc/rinetd.conf" >> /etc/rc.local
+echo "/usr/sbin/rinetd -c /etc/rinetd.conf" >> /etc/rc.d/rc.local
 
 chmod +x /etc/rc.d/rc.local
 ```
